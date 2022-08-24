@@ -1,0 +1,209 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #fffefe;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* .content #ima{
+    position:relative;
+    left:400px;
+    top: -400px ;
+    text-decoration: none;
+} */
+/* .ncontent #ima{
+    position:relative;
+    left:350px;
+    top: -350px ;
+    text-decoration: none;
+} */
+
+
+.menu-icon{
+    background-color: #F4BFBF;
+    padding: 0;
+    text-align: left;
+    
+  }
+
+  
+  .menu-icon ul
+  {
+    /* display: inline-flex; */
+    
+    color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background:#FFE6E6;
+    position: fixed; /* cố định thanh điều hướng cả khi cuộn để đọc website */ 
+    height: 100% ;   /* chiều cao 100% */ 
+    overflow: auto; /* nếu nội dung quá dài sẽ có thêm thanh cuộn để xem phần còn lại */
+        
+  }
+  
+.menu-icon ul li a
+{
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 8px 5px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.menu-icon ul li a:hover
+{
+ 
+  background-color:#FBA1A1;
+  border-radius: 3px;
+}
+
+/* .active1 {background-color: #ff7b7b;color: white;} */
+
+.menu-home
+  {
+    background-color:  #FFE6E6;
+    padding: 1px;
+    margin-right: 10px;
+    text-align: right; 
+  }
+
+  .menu-home ul
+  {
+    display: inline-flex;
+    list-style-type: none;
+    color: black;
+  }
+
+  .menu-home ul li
+  {
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse; */
+    /* width: 40; */
+    float:right;
+    padding: 5px;
+    background-color:  #FFE6E6;
+
+  }
+  
+  .menu-home ul li a
+  {
+    text-decoration: none;
+    color: rgb(52, 49, 49);
+  }
+
+  .menu-home ul a {
+    text-decoration: none;
+    color: rgb(52, 49, 49);
+  }
+
+
+
+  .active, .menu-home ul li:hover
+  {
+    background: #FBA1A1 -20px -20px;
+    border-radius: 3px;
+  }
+
+  .menu-home .fa
+  {
+    margin: 5px;
+    padding: 2px;
+  }
+
+   /* #home{
+    display: flex;
+    flex: 1;
+    align-items:center;
+    justify-content: space-between;
+  } */
+  /* .menu-home .home {
+    left: 0px;
+    width: 46px;
+    background: url('DL/Ellipse.png') 0 0;
+  }  */
+
+  .custom-logo
+  {
+    background: url('DL/Ellipse.png') 0 0;
+    margin-left: 15px;
+  }
+
+  .custom-logo:hoverhover
+  {
+    background: url('DL/Ellipse.png') -47px -45px;
+  }
+
+
+
+  /* .menu-icon ul li
+  {
+    
+    width: 40;
+    padding: 5px;
+    background-color: #EF9F9F;
+
+  } */
+
+.list {
+    position: fixed;
+}
+
+
+.list #submit{
+    background: transparent;
+    border: 1px solid #b62d2d;
+    color: rgb(14, 4, 4);
+    width: 100%;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+
+/* .list .person{
+    position:relative;
+    left:450px;
+    top: -350px ;
+    font-size: large;
+} */
+.list #submit1{
+    background: #ff7b7b;
+    border-radius: 3px;
+    color: rgb(14, 4, 4);
+    width: 90%;
+    padding: 4px 10px;
+    
+    margin-top: 30px;
+    position:relative;
+    left: 420px;
+    top: -200px ;
+}
+
+.list .tk .lk{
+    position: relative;
+    left: 600px;
+    top: -285px; 
+}
+
+.list .person .mk{
+    position: relative;
+    left: 300px;
+    top: 0px; 
+}
+
+h1 {
+    position: relative;
+    left: 400px;
+    top: 5px; 
+    font-weight:"Comic Sans MS", cursive, sans-serif;
+}
