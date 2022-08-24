@@ -10,6 +10,7 @@ body{
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 /* .content #ima{
     position:relative;
     left:400px;
@@ -41,7 +42,7 @@ body{
     margin: 0;
     padding: 0;
     width: 15%;
-    background:#FFE6E6;
+    /* background:#FFE6E6; */
     position: fixed; /* cố định thanh điều hướng cả khi cuộn để đọc website */ 
     height: 100% ;   /* chiều cao 100% */ 
     overflow: auto; /* nếu nội dung quá dài sẽ có thêm thanh cuộn để xem phần còn lại */
@@ -54,7 +55,6 @@ body{
   text-decoration: none;
   color: rgb(0, 0, 0);
   padding: 8px 5px;
-  text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -93,6 +93,7 @@ body{
     float:right;
     padding: 5px;
     background-color:  #FFE6E6;
+    
 
   }
   
@@ -139,7 +140,7 @@ body{
     margin-left: 15px;
   }
 
-  .custom-logo:hoverhover
+  .custom-logo:hover
   {
     background: url('DL/Ellipse.png') -47px -45px;
   }

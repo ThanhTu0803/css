@@ -1,4 +1,4 @@
-body {
+/* body {
     background-image: url('/DL/full.png');
     background-size: cover;
 }
@@ -76,4 +76,71 @@ button {
     left: 680px;
     top: -500px;     
     font-size: 30px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
 }
+
+body{
+    background: #fffefe;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.menu-home
+  {
+    background-color:  #FFE6E6;
+    padding: 1px;
+    margin-right: 10px;
+    text-align: right; 
+  }
+  
+  .menu-home ul
+  {
+    display: inline-flex;
+    list-style-type: none;
+    color: black;
+  }
+
+  .menu-home ul li
+  {
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse; */
+    /* width: 40; */
+    float:right;
+    padding: 5px;
+    background-color:  #FFE6E6;
+    
+
+  }
+  
+  .menu-home ul li a
+  {
+    text-decoration: none;
+    color: rgb(52, 49, 49);
+  }
+
+  .menu-home ul a {
+    text-decoration: none;
+    color: rgb(52, 49, 49);
+  }
+
+
+
+  .active, .menu-home ul li:hover
+  {
+    background: #FBA1A1 -20px -20px;
+    border-radius: 3px;
+  }
+
+  .menu-home .fa
+  {
+    margin: 5px;
+    padding: 2px;
+  }
